@@ -1,0 +1,159 @@
+* {
+    /* outline: 1px solid red !important;   */
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.corpo {
+    display: flex;
+}
+
+.box-esquerda {
+    background-color: var(--btn-conta-background);
+    display: flex;
+    
+    flex-direction: column;
+    width: 40rem;
+    height: 100vh;
+    -webkit-box-shadow: 14px 0px 15px -10px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 14px 0px 15px -10px rgba(0, 0, 0, 0.32);
+    box-shadow: 14px 0px 15px -10px rgba(0, 0, 0, 0.32);
+}
+
+.botao{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.voltar{
+    width: 4rem;
+    height: 4rem;
+}
+
+.imgMajora{
+    width: 22rem;
+    height: 70vh;
+}
+
+.div-etapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etapa{
+    color: var(--branco);
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.box-direita {
+    background-color: var(transparent);
+    width: 60rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    margin-bottom: 2rem;
+}
+
+.container{
+    background-color: var(--background-geral);
+    padding: 2rem 3rem 3rem 3rem;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 22px -5px rgba(0, 0, 0, 0.3);
+}
+
+.text{
+    text-align: center;
+}
+
+.text-p{
+    text-align: center;
+}
+
+.buttons-categoria{
+    display: flex;
+    gap: 40px;
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-categoria{
+    background-color: var(--roxo-scrool);
+    color: var(--branco);
+    padding: 15px 30px 15px 30px;
+    border-radius: 2rem;
+    border: transparent;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+} 
+
+.button-categoria:hover{
+    background-color: var(--roxo-text);
+    font-weight: 800;
+}
+
+.button-proxima{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-proxima-etapa{
+    background-color: var(--search-background);
+    color: var(--branco);
+    padding: 15px 30px 15px 30px;
+    border-radius: 2rem;
+    border: transparent;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.button-proxima-etapa:hover{
+    background-color: var(--btn-conta-background);
+    font-weight: 800;
+}
+
+.divLogo{
+    margin-top: 3rem;
+}
+
+.imgLogo{
+    width: 90px;
+    height: 90px;
+}
+
+.tabela-table{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-form{
+    border-radius: 2rem;
+    padding: 7px 15px 7px 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
