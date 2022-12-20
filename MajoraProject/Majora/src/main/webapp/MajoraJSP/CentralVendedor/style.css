@@ -1,0 +1,563 @@
+* {
+    /* outline: 1px solid red !important;  */
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* .header{
+    width: 100%;
+    height: 5rem;
+    box-shadow: 2px 2px 22px -5px rgba(0, 0, 0, 0.3);
+    background-color: var(--background-nav);
+   
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoButton{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.lista{
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    font-weight: 500;
+}
+
+.lista li {
+    display: inline-block;
+    
+}
+
+.lista li a{
+    text-decoration: none;
+    color: var(--text-nav);
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: 1.7px solid transparent;
+    transition: 0.6s ease;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.lista li a:hover{
+    background: var(--hover-btn-background);
+    color: var(--branco);
+}
+
+.lista .active a{
+background: var(--hover-btn-background);
+    color: var(--branco);
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.search-input {
+    border: none;
+    height: 2.5rem;
+    width: 450px;
+    padding-left: 20px;
+    background-color: var(--search-background);
+    color: var(--branco);
+    font-weight: 400;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-input::placeholder{
+    color: white !important;
+}
+
+.search-submit {
+    border: none;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    background-color: var(--search-background);
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-submit img{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+
+
+.loginButton{
+    width: 2.3rem;
+    height: 2.3rem;
+    transition: ease-in 0.2s;
+}
+
+.loginButton:hover{
+    transform: scale(0.9);
+} */
+
+.header {
+    display: flex;
+}
+
+.navbar {
+    background-color: var(--background-nav);
+    width: 80vw;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 2px 2px 22px -5px rgba(0, 0, 0, 0.3);
+}
+
+.bem-vindo {
+    padding-left: 30px;
+}
+
+.container-vertical {
+    background-color: var(--btn-conta-background);
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    position: fixed;
+}
+
+
+.div-voltar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-voltar a {
+    text-decoration: none;
+}
+
+.img-voltar {
+    width: 50px;
+    height: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.div-conteudo {
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    float: right;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--background-nav);
+}
+
+
+/* Conteudo da pagina */
+
+.parte-nav2 {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--background-azul);
+
+}
+
+.conteudo-nav2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo-nav2 .nav-part2 #text-p {
+    font-weight: 500;
+    color: var(--preto);
+    font-size: 35px;
+}
+
+.conteudo-nav2 .nav-part2 #text-p span,
+.conteudo-nav2 .nav-part2 #sub-text span {
+    color: var(--btn-conta-background);
+}
+
+.conteudo-nav2 .nav-part2 #sub-text {
+    font-weight: 300;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+
+.parte-nav3 {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--background-azul);
+
+}
+
+.conteudo-nav3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo-nav3 .botoes {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.conteudo-nav3 .botoes a {
+    margin-left: 20%;
+}
+
+.conteudo-nav3 .botoes a button {
+    width: 150px;
+    height: 40px;
+    background: var(--btn-conta-background);
+    border: 2px solid var(--btn-conta-background);
+    border-radius: 10px;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.conteudo-nav3 .botoes a button:hover {
+    background: transparent;
+    border: 2px solid var(--roxo-text);
+    box-shadow: 0 0 10px 0 var(--roxo-text) inset,
+        0 0 10px 4px var(--roxo-text);
+    border-radius: 10px;
+    color: var(--roxo-text);
+}
+
+.parte-arrow {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* Inicio da parte do produto */
+
+.parte-produtos {
+    margin-top: 150px;
+    width: 100%;
+    height: 50vh;
+    background: var(--background-azul);
+}
+
+.parte-produtos .conteudo-produto {
+    justify-content: space-between;
+    display: flex;
+}
+
+.parte-produtos .conteudo-produto .title-produto {
+    text-align: center;
+
+}
+
+#parte1-1-produto {
+    margin-top: 45px;
+}
+
+#parte1-1-produto span {
+    color: var(--text-blue);
+}
+
+.parte-produtos .conteudo-produto .text-p {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.parte-produtos .conteudo-produto .text-sub {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+
+#parte1-1-produto button {
+    margin-top: 30px;
+    margin-left: 33%;
+    width: 150px;
+    height: 40px;
+    background: var(--btn-conta-background);
+    border: 2px solid var(--btn-conta-background);
+    border-radius: 10px;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+#parte1-1-produto button:hover {
+    background: transparent;
+    border: 2px solid var(--btn-conta-background);
+    box-shadow: 0 0 10px 0 var(--btn-conta-background) inset,
+        0 0 10px 4px var(--btn-conta-background);
+    border-radius: 10px;
+    color: var(--btn-conta-background);
+}
+
+.parte-produtos .conteudo-produto #img-tamanho {
+    max-width: 450px;
+
+}
+
+
+.conteudo-produto .img-produtos img {
+    margin-left: 15%;
+    margin-top: -120px;
+    width: 80%;
+}
+
+/* Fim da parte do produto */
+
+
+/* Inicio da parte do conhecimento */
+
+.parte-conhecimento {
+    margin-top: 150px;
+    width: 100%;
+    height: 60vh;
+    background: var(--roxinho);
+}
+
+.parte-conhecimento .conteudo-conhecimento {
+    justify-content: space-between;
+    display: flex;
+}
+
+.parte-conhecimento .conteudo-conhecimento .title-conhecimento {
+    text-align: center;
+
+}
+
+#parte1-1-conhecimento{
+    margin-top: 40px;
+}
+
+#parte1-1-conhecimento span {
+    color: var(--roxo-text);
+}
+
+.parte-conhecimento .conteudo-conhecimento .text-p {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.parte-conhecimento .conteudo-conhecimento .text-sub {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+
+#parte1-1-conhecimento button {
+    margin-top: 30px;
+    margin-left: 33%;
+    width: 150px;
+    height: 40px;
+    background: var(--roxo-text);
+    border: 2px solid var(--roxo-text);
+    border-radius: 10px;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+#parte1-1-conhecimento button:hover {
+    background: transparent;
+    border: 2px solid var(--roxo-text);
+    box-shadow: 0 0 10px 0 var(--roxo-text) inset,
+        0 0 10px 4px var(--roxo-text);
+    border-radius: 10px;
+    color: var(--roxo-text);
+}
+
+.parte-conhecimento .conteudo-conhecimento #img-tamanho {
+    max-width: 450px;
+
+}
+
+.conteudo-conhecimento .img-conhecimento {
+    max-width: 40vw;
+}
+
+.conteudo-conhecimento .img-conhecimento img {
+    margin-top: 43px;
+    width: 100%;
+}
+
+/* Fim da parte do conhecimento */
+
+
+/* Parte das vendas */
+.parte-vendas {
+    margin-top: 100px;
+    width: 100%;
+    height: 90vh;
+    /* background: linear-gradient(var(--background-azul), var(--background-roxo)); */
+    background: transparent;
+}
+
+
+
+.parte-vendas #text-vendas p {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.parte-vendas #text-vendas p span {
+    color: var(--roxo-text);
+}
+
+.conteudo-vendas .conteudo-box #box-1 {
+    height: 30vh;
+    background: var(--btn-conta-background);
+}
+
+.conteudo-vendas {
+    margin-top: 40px;
+    justify-content: space-around;
+    display: flex;
+    max-width: 1050px;
+}
+
+.conteudo-vendas .caixap {
+    margin-top: 30px;
+    width: 25%;
+    height: 350px;
+    background: rgba(214, 232, 255, 0.13);
+    border-radius: 100px 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(214, 232, 255, 0.58);
+}
+
+.conteudo-vendas .caixa-roxa {
+    background: rgba(237, 206, 255, 0.13);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(237, 206, 255, 0.58);
+}
+
+
+.conteudo-vendas #box-venda1 .text-caixa1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.conteudo-vendas #box-venda1 img{
+    max-width: 90%;
+}
+
+.conteudo-vendas #box-venda1 #imagem{
+    max-width: 80%;
+}
+
+/* ---- */
+
+.conteudo-vendas #box-venda2 .text-caixa2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.conteudo-vendas #box-venda2 img{
+    max-width: 90%;
+}
+
+.conteudo-vendas #box-venda2 #imagem2{
+    max-width: 80%;
+}
+/* ------- */
+
+.conteudo-vendas #box-venda3 .text-caixa3{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.conteudo-vendas #box-venda3 img{
+    max-width: 90%;
+}
+
+.conteudo-vendas #box-venda3 #imagem3{
+    max-width: 80%;
+}
+
+.parte-vendas #btn button{
+    margin-top: 30px;
+    margin-left: 45%;
+    width: 150px;
+    height: 40px;
+    background: var(--roxo-text);
+    border: 2px solid var(--roxo-text);
+    border-radius: 10px;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.parte-vendas #btn button:hover{
+    background: transparent;
+    border: 2px solid var(--roxo-text);
+    box-shadow: 0 0 10px 0 var(--roxo-text) inset,
+        0 0 10px 4px var(--roxo-text);
+    border-radius: 10px;
+    color: var(--roxo-text);
+}

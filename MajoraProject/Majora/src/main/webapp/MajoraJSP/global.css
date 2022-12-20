@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap');
+
+:root {
+
+    /* Backgrounds */
+    --background-nav:#F4F4F4;
+    --hover-btn-background:#4C60F5;
+    --search-background:#7B8AFB;
+    --btn-conta-background:#2A40E9;
+    --background-geral:#FFFFFF;
+    --background-footer:#2B2B2B;
+    --placeholder:	#ebe2e2;
+    --text-nav:#2B2B2B; 
+    --line:#7A7A7A;
+    --branco:#fff;
+    --preto:#000;
+    --text-box:#7A7A7A;
+    --roxo-scrool:#9649F6;
+    --roxo-text:#7C2BE2;
+    --background-roxo:#BA8DF0;
+    --background-azul:#D6E8FF;
+    --roxinho:#EDCEFF;
+    --text-blue:#253E93;
+    --vermelho:#da3737;
+    --vermelho-escuro: #a11b1b;
+    --background-roxo-claro:#F9EFFF;
+    --text-alert:#FF0000;
+
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* * Scroll Bar */
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--placeholder);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--search-background);
+        border-radius: 5px;
+
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--roxo-scrool);
+    } 
