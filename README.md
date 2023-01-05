@@ -41,5 +41,4 @@
 
 <br/>
 
-## 📌 Agora que já conheceu sobre a **Majora**, que tal olhar o projeto na sua maquina?
 
